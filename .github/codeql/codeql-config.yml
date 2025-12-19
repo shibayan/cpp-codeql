@@ -2,4 +2,5 @@ name: "CodeQL config"
 
 # 既定のクエリスイートに「追加」で自作クエリを足す
 queries:
-  - uses: ./codeql/queries/FloatingPointEquality.ql
+  - name: "My custom queries"
+    uses: ./codeql/queries

@@ -1,0 +1,4 @@
+name: my-org/my-queries
+version: 0.0.1
+dependencies:
+  codeql/cpp-all: "*"
